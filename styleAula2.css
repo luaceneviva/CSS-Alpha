@@ -1,0 +1,32 @@
+header nav a:hover {
+    color: red;
+}
+
+a:active {
+    color: brown;
+}
+
+li>span {
+    font-weight: bold;
+}
+
+li {
+    line-height: 1.5em;
+}
+
+input[type="text"] {
+    border-color: aqua;
+}
+
+input[type="email"] {
+    border-color: aqua;
+}
+
+input[type="email"]:invalid {
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(225, 0, 255);
+}
