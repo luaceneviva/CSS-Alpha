@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    weight: 800vw;
+}
+
+nav ol li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div {
+    display: inline-block;
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+    margin-right: 50px;
+    padding-left: 15px;
+    margin-top: 15px;
+    vertical-align: top;
+}
+
+h2 {
+    font-size: medium;
+    text-align: center;
+}
+
+#visible {
+    overflow: visible;
+    background-color: aqua;
+}
+
+#scroll {
+    overflow: scroll;
+    background-color: aquamarine;
+}
+
+#hidden {
+    overflow: hidden;
+    background-color: rgb(217, 255, 127);
+}
+
+#auto {
+    overflow: auto;
+    background-color: rgb(250, 134, 134);
+}

@@ -1,0 +1,45 @@
+div[class^="blue"] {
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+div[class^="orange"] {
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.orange2 {
+    position: relative;
+    left: 80px;
+    top: 18px;
+}
+
+.blue3 {
+    position: absolute;
+    top: 550px;
+    left: 25px;
+}
+
+#fixed {
+    margin-top: 80px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.blue4 {
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+}
+
+#invisible {
+    height: 300px;
+    width: 10px;
+    background-color: white ;
+}
