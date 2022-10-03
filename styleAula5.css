@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(0, 3, 44);
+    color: white;
+    border-bottom: 1px solid blue;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+header * {
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.topMenu {
+    position: relative;
+    left: 35%;
+    display: inline-block;
+}
+
+#profile {
+    display: inline-block;
+    position: relative;
+    left: 750px;
+    bottom: 15px;
+    border-radius: 30%;
+    background-color: rgb(0, 153, 255);
+    font-size: 25px;
+    padding: 8px;
+}
+
+.top {
+    height: 350px;
+    width: 100vw;
+    overflow: clip;
+}
+
+.top > img {
+    width: 100vw;
+    position: relative;
+    bottom: 240px;
+}
+
+div img {
+    height: 250px;
+    width: 160px;
+    overflow: hidden;
+    margin: 50px;
+}
+
+.movies {
+    width: 100vw;
+    position: relative;
+    top: 30px;
+}
+
+main {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 68), black);
+}
+
+h2 {
+    color: white;
+}
+
+.moviesIMG {
+    margin: auto;
+    width: 60vw;
+}
