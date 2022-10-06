@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lorem {
+    font-size: 16px;
+    color: rgb(41, 41, 41);
+    text-align: justify;
+    font-family: Roboto;
+}
+
+header {
+    text-align: center;
+    color: black;
+    background-color: rgb(78, 255, 255);
+    height: 60px;
+    padding-top: 12px;
+}
+
+.subtitle {
+    text-align: center;
+    color: black;
+    height: 50px;
+    background-color: blanchedalmond;
+    background-clip: border-box;
+    padding-top: 15px;
+}
+
+.lorem {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 110px;
+}
+
+ol {
+    padding-left: 43vw;
+}
+
+li {
+    float: left;
+    margin-right: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin: 20px;
+    min-width: 330px;
+    text-align: left;
+}
+
+table tr {
+    border: 1px solid black;
+}
+
+table tr:nth-of-type(even) {
+    background-color: antiquewhite;
+}
+
+div {
+    width: 100vw;
+    padding-left: 580px;
+}
